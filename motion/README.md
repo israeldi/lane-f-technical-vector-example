@@ -6,6 +6,10 @@ The Python source renders original procedural geometry and text with Pillow, the
 
 The included MP4 is **1080 × 1920**, **24 fps**, **288 frames**, **12.000 seconds**, **H.264**, **yuv420p**, with **no audio stream**. The accompanying contact sheet contains eight frames decoded from the actual MP4.
 
+![Eight decoded frames from the original synthetic motion sample](contact-sheet.png)
+
+[Open the MP4 file](https://github.com/israeldi/lane-f-technical-vector-example/raw/refs/heads/main/motion/brief-make-check-synthetic.mp4). GitHub’s file page provides a raw-file link rather than an inline video player. The contact sheet is a static preview; continuous browser playback has not been verified.
+
 Files: `create_motion_sample.py`, `brief-make-check-synthetic.mp4`, `contact-sheet.png`, `export-summary.json`, and the complete `LICENSE_DEJAVU.txt` font notice.
 
 To reproduce with existing Python, Pillow, FFmpeg and ffprobe:
