@@ -2,6 +2,18 @@
 
 Two original examples document specific technical work: the [static workflow below](#one-geometry-model-three-static-exports) and a [silent 12-second motion sample](motion/README.md). Both are synthetic and contain no client work.
 
+![Original synthetic six-step workflow, with a review decision and revision loop](content-workflow.png)
+
+[Inspect the SVG](content-workflow.svg) · [Open the PDF](content-workflow.pdf)
+
+### Motion preview
+
+![Eight frames decoded from the existing 12-second synthetic motion sample](motion/contact-sheet.png)
+
+[Motion source and verification notes](motion/README.md) · [MP4 file](https://github.com/israeldi/lane-f-technical-vector-example/raw/refs/heads/main/motion/brief-make-check-synthetic.mp4)
+
+The contact sheet shows selected frames; it is not a video player. The MP4 is silent.
+
 ## One geometry model, three static exports
 
 This AI-led technical example draws an original six-step content workflow from one Python geometry model. All process labels and inputs are synthetic. The visible sample is labeled “SYNTHETIC CAPABILITY SAMPLE - NO CLIENT WORK.” It contains no commissioned work, client assets, stock images, music, voices or likenesses.
@@ -29,6 +41,6 @@ The script writes the three exports beside itself, replacing previous exports. I
 
 ## Verification and limits
 
-The package was syntax-checked and rendered using Python 3.12.14, Pillow 12.3.0 and ReportLab 4.4.9. Static checks confirmed text-fit assertions, parseable SVG XML, two embedded font faces, no external image assets, exact PNG dimensions, and a one-page PDF with embedded font subsets and the required labels. The generated PNG and a Poppler rendering of the PDF were visually inspected for clipping, overlap, connector continuity and legibility. SVG browser rendering was not tested.
+The package was syntax-checked and rendered using Python 3.12.14, Pillow 12.3.0 and ReportLab 4.4.9. Static checks confirmed text-fit assertions, parseable SVG XML, two embedded font faces, no external image assets, exact PNG dimensions, and a one-page PDF with embedded font subsets and the required labels. The generated PNG and a Poppler rendering of the PDF were visually inspected for clipping, overlap, connector continuity and legibility. The GitHub-hosted SVG preview was also visually inspected in a desktop browser on November 4, 2026. Standalone SVG rendering and mobile layouts were not tested.
 
 This static workflow is one technical capability example. It establishes no prior clients, human design experience, paid delivery, buyer acceptance, specialist certification, animation capability, batch throughput or repeatable production capacity. Export execution time is not a design or delivery estimate.
