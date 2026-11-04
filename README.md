@@ -1,8 +1,12 @@
-# One geometry model, three static exports
+# AI-led synthetic technical examples
+
+Two original examples document specific technical work: the [static workflow below](#one-geometry-model-three-static-exports) and a [silent 12-second motion sample](motion/README.md). Both are synthetic and contain no client work.
+
+## One geometry model, three static exports
 
 This AI-led technical example draws an original six-step content workflow from one Python geometry model. All process labels and inputs are synthetic. The visible sample is labeled “SYNTHETIC CAPABILITY SAMPLE - NO CLIENT WORK.” It contains no commissioned work, client assets, stock images, music, voices or likenesses.
 
-The script defines cards, connectors, a review decision and a revision loop, then exports the same geometry as editable SVG, PNG and PDF. SVG text remains live and the SVG embeds the supplied DejaVu Sans regular and bold fonts. PNG and PDF are static exports. There is no animation or Adobe/Figma-native source.
+The script defines cards, connectors, a review decision and a revision loop, then exports the same geometry as editable SVG, PNG and PDF. SVG text remains live and the SVG embeds the supplied DejaVu Sans regular and bold fonts. PNG and PDF are static exports. This static workflow has no animation or Adobe/Figma-native source.
 
 ## Files
 
@@ -27,4 +31,4 @@ The script writes the three exports beside itself, replacing previous exports. I
 
 The package was syntax-checked and rendered using Python 3.12.14, Pillow 12.3.0 and ReportLab 4.4.9. Static checks confirmed text-fit assertions, parseable SVG XML, two embedded font faces, no external image assets, exact PNG dimensions, and a one-page PDF with embedded font subsets and the required labels. The generated PNG and a Poppler rendering of the PDF were visually inspected for clipping, overlap, connector continuity and legibility. SVG browser rendering was not tested.
 
-This is one technical capability example. It establishes no prior clients, human design experience, paid delivery, buyer acceptance, specialist certification, animation capability, batch throughput or repeatable production capacity. Export execution time is not a design or delivery estimate.
+This static workflow is one technical capability example. It establishes no prior clients, human design experience, paid delivery, buyer acceptance, specialist certification, animation capability, batch throughput or repeatable production capacity. Export execution time is not a design or delivery estimate.

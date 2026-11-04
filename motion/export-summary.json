@@ -1,0 +1,141 @@
+{
+  "sample": "Original generic brief -> make -> check motion handoff",
+  "status": "PASS: portable render, technical checks and agent-selected-frame inspection completed",
+  "generated_at_utc": "2026-11-04T00:01:39.292317+00:00",
+  "visible_disclosure": [
+    "AI-LED SYNTHETIC MOTION SAMPLE",
+    "NO CLIENT WORK"
+  ],
+  "source": "create_motion_sample.py",
+  "output": "brief-make-check-synthetic.mp4",
+  "tools": {
+    "python": "3.12.9",
+    "pillow": "12.2.0",
+    "ffmpeg": "ffmpeg version 6.1.1 Copyright (c) 2000-2023 the FFmpeg developers"
+  },
+  "specification": {
+    "width": 1080,
+    "height": 1920,
+    "duration_seconds": 12,
+    "frames": 288,
+    "frames_per_second": 24,
+    "codec": "h264",
+    "pixel_format": "yuv420p",
+    "audio_stream_count": 0
+  },
+  "observed_calibration": {
+    "render_and_export_wall_seconds": 6.367,
+    "pillow_render_wall_seconds": 4.055,
+    "raw_frame_feed_wall_seconds": 1.976,
+    "scope": "One render/export on one machine; render and encoder overlap. Excludes planning, authoring and review. Timing is a calibration observation only."
+  },
+  "rights": {
+    "artwork": "Original procedural geometry, paths, geometric icons and labels authored in this script; no external raster artwork.",
+    "font_files": {
+      "regular": "DejaVuSans.ttf",
+      "bold": "DejaVuSans-Bold.ttf"
+    },
+    "font_sha256": {
+      "regular": "3fdf69cabf06049ea70a00b5919340e2ce1e6d02b0cc3c4b44fb6801bd1e0d22",
+      "bold": "b184b89e3c1075f22f6b71575b6fc20d4972b3cfd3b23322ca6fd596dcaef167"
+    },
+    "font_license_copy": "LICENSE_DEJAVU.txt",
+    "font_license_matches_supplied_font_directory": true,
+    "font_license": "Included unmodified notice permits use and distribution subject to its conditions. Unmodified fonts are rasterized into the video; font binaries are not redistributed.",
+    "music_voice_likeness_footage_external_artwork": "None"
+  },
+  "checks": {
+    "ffprobe": {
+      "width": 1080,
+      "height": 1920,
+      "codec_name": "h264",
+      "pix_fmt": "yuv420p",
+      "r_frame_rate": "24/1",
+      "avg_frame_rate": "24/1",
+      "duration": "12.000000",
+      "nb_frames": "288",
+      "format_duration": "12.000000",
+      "audio_stream_count": 0
+    },
+    "text_bounds": {
+      "drawn_text_instances": 6162,
+      "canvas_checks": 6162,
+      "region_checks": 6162,
+      "failures": []
+    },
+    "encoded_animation_cue_checks": {
+      "brief_card_typography_progress_0_to_1_5": {
+        "mean_absolute_rgb_difference": 25.372,
+        "visible_pixel_change": true
+      },
+      "first_path_progress_1_5_to_3_5": {
+        "mean_absolute_rgb_difference": 11.1304,
+        "visible_pixel_change": true
+      },
+      "make_card_typography_progress_3_5_to_5": {
+        "mean_absolute_rgb_difference": 26.4809,
+        "visible_pixel_change": true
+      },
+      "second_path_progress_5_to_6_75": {
+        "mean_absolute_rgb_difference": 4.1286,
+        "visible_pixel_change": true
+      },
+      "check_card_typography_progress_6_75_to_8_25": {
+        "mean_absolute_rgb_difference": 24.9108,
+        "visible_pixel_change": true
+      },
+      "completion_progress_9_5_to_11_5": {
+        "mean_absolute_rgb_difference": 14.3861,
+        "visible_pixel_change": true
+      }
+    },
+    "selected_actual_export_frame_times_seconds": [
+      0.0,
+      1.5,
+      3.5,
+      5.0,
+      6.75,
+      8.25,
+      9.5,
+      11.5
+    ],
+    "agent_selected_frame_review": {
+      "status": "PASS",
+      "inspected": "Contact sheet of eight frames decoded from the portable MP4 at 0, 1.5, 3.5, 5, 6.75, 8.25, 9.5 and 11.5 seconds; decoded 5.0s and 11.5s frames inspected at full 1080x1920 resolution by an AI agent.",
+      "findings": "Disclosures remain visible; no clipped or overlapping text observed. Sequential card activation, typography progression, curved path progression and completion state are visible across decoded timepoints.",
+      "limits": "Selected-frame inspection only. Continuous playback, professional reel quality and accessibility conformance were not assessed."
+    },
+    "portable_invocation": {
+      "font_dir_argument_required": true,
+      "missing_argument_exit_status": 2,
+      "private_source_manifest_dependency": false,
+      "absolute_install_path_dependency": false,
+      "reproduced_reviewed_mp4_sha256": "b38f29d78b463205b556981e1f7936bbee3db4352925a49eb53b3dc0e2525196"
+    }
+  },
+  "limitations": [
+    "One original silent synthetic feasibility example.",
+    "Selected-frame and technical checks do not establish continuous-playback review, professional animation quality or accessibility conformance.",
+    "No voice, music, footage, likeness, character animation or Adobe-native source included."
+  ],
+  "files": {
+    "create_motion_sample.py": {
+      "bytes": 16753,
+      "sha256": "c3b8b5044bfd22e7eb305e6ed9a53e5e5fbb18c96107ba22c368b91cceb8c141"
+    },
+    "brief-make-check-synthetic.mp4": {
+      "bytes": 291414,
+      "sha256": "b38f29d78b463205b556981e1f7936bbee3db4352925a49eb53b3dc0e2525196"
+    },
+    "contact-sheet.png": {
+      "bytes": 231147,
+      "sha256": "efe2e721420602ebfb3b1c024fbba793dccf0603220a589891e5c82ffa75f0e4"
+    },
+    "LICENSE_DEJAVU.txt": {
+      "bytes": 4816,
+      "sha256": "d75938dec098f06f0ac3c00853065d94f020be1c3c62ef1dc2975ba15b4d9b0e"
+    }
+  },
+  "temporary_files": "Only the temporary log and eight decoded PNG frames created by this render were removed after assembling the contact sheet.",
+  "verified_at_utc": "2026-11-04T00:02:37.426815+00:00"
+}
